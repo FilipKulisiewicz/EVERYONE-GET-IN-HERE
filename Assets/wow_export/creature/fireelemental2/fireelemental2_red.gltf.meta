@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: a1b3dc09e6b49d24bb73b2a53c6b3783
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim0-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim0-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim4-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim4-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim5-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim5-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim16-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim16-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim16-1.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim16-1.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim0-1.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim0-1.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim0-2.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim0-2.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim54-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim54-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim125-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim125-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim51-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim51-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim32-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim32-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim53-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim53-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim9-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim9-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim10-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim10-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim1-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim1-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim42-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim42-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim41-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim41-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim131-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim131-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim132-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim132-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim135-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim135-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim193-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim193-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim45-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim45-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim44-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim44-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim43-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim43-0.bin
+  - type: 0
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red_anim124-0.bin
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red_anim124-0.bin
+  - type: 1
+    originalUri: Assets\creature\fireelemental2\fire_2x2_sharp_mod4x.png
+    assetPath: Assets\creature\fireelemental2\fire_2x2_sharp_mod4x.png
+  - type: 1
+    originalUri: Assets\creature\fireelemental2\fire_bright_mod2x_a.png
+    assetPath: Assets\creature\fireelemental2\fire_bright_mod2x_a.png
+  - type: 1
+    originalUri: Assets\creature\fireelemental2\fireelemental2_red.png
+    assetPath: Assets\creature\fireelemental2\fireelemental2_red.png
+  - type: 1
+    originalUri: Assets\creature\fireelemental2\armorreflect4.png
+    assetPath: Assets\creature\fireelemental2\armorreflect4.png
+  - type: 1
+    originalUri: Assets\creature\fireelemental2\caustic_soft_distortion.png
+    assetPath: Assets\creature\fireelemental2\caustic_soft_distortion.png
+  - type: 1
+    originalUri: Assets\creature\fireelemental2\fireelemental2_fx_red.png
+    assetPath: Assets\creature\fireelemental2\fireelemental2_fx_red.png
+  reportItems:
+  - type: 2
+    code: 3
+    messages: []

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="ragnaros" size="1.000000 1.434397" />
+    <ImageTarget name="harvest_golem" size="1.000000 1.381333" />
+    <ImageTarget name="card_back-default" size="1.000000 1.490284" />
+  </Tracking>
+</QCARConfig>

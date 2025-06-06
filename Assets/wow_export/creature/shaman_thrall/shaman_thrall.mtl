@@ -1,0 +1,12 @@
+newmtl mat_shaman_thrall2
+illum 1
+map_Kd shaman_thrall2.png
+newmtl mat_orbreflect
+illum 1
+map_Kd ..\protodragon\orbreflect.png
+newmtl mat_shaman_thrall3
+illum 1
+map_Kd shaman_thrall3.png
+newmtl mat_shaman_thrall1
+illum 1
+map_Kd shaman_thrall1.png

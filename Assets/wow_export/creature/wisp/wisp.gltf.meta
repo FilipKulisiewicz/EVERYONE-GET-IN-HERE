@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: 0e2524d2d70bbef42bae296f0bf678b1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim1-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim1-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim4-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim4-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim5-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim5-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim143-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim143-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim9-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim9-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim0-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim0-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim51-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim51-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim52-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim52-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim16-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim16-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim54-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim54-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim53-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim53-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim124-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim124-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim125-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim125-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim42-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim42-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim41-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim41-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim45-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim45-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim43-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim43-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\wisp\wisp_anim44-0.bin
+    assetPath: Assets\wow_export\creature\wisp\wisp_anim44-0.bin
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\fire_2x2_sharp_mod4x_blurred.png
+    assetPath: Assets\wow_export\creature\wisp\fire_2x2_sharp_mod4x_blurred.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\arcane_wisps_purpleb2.png
+    assetPath: Assets\wow_export\creature\wisp\arcane_wisps_purpleb2.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\grey50percentsquare16x16.png
+    assetPath: Assets\wow_export\creature\wisp\grey50percentsquare16x16.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\fire_2x2_sharp_mod4x.png
+    assetPath: Assets\wow_export\creature\wisp\fire_2x2_sharp_mod4x.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\impacts_directional_sharp.png
+    assetPath: Assets\wow_export\creature\wisp\impacts_directional_sharp.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\wisp.png
+    assetPath: Assets\wow_export\creature\wisp\wisp.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\wispglow.png
+    assetPath: Assets\wow_export\creature\wisp\wispglow.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\dust1.png
+    assetPath: Assets\wow_export\creature\wisp\dust1.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\7fx_heroaura_shadowflame4.png
+    assetPath: Assets\wow_export\creature\wisp\7fx_heroaura_shadowflame4.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\wisp\arcane_wisps_moonlight.png
+    assetPath: Assets\wow_export\creature\wisp\arcane_wisps_moonlight.png
+  reportItems:
+  - type: 2
+    code: 3
+    messages: []
