@@ -1,0 +1,961 @@
+fileFormatVersion: 2
+guid: 6b6ce7edcc3d11442b487b48a7b0aa7a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim26-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim26-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim27-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim27-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim28-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim28-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim48-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim48-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim25-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim25-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim0-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim0-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim17-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim17-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim18-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim18-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim49-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim49-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim16-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim16-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim16-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim16-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim10-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim10-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim9-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim9-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim131-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim131-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim132-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim132-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim61-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim61-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim15-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim15-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim90-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim90-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim110-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim110-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim38-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim38-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim40-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim40-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim39-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim39-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim187-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim187-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim37-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim37-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim106-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim106-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim50-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim50-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim22-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim22-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim23-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim23-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim5-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim5-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim89-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim89-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim11-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim11-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim12-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim12-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim96-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim96-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim98-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim98-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim143-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim143-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim0-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim0-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim8-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim8-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim14-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim14-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim42-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim42-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim45-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim45-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim41-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim41-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim43-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim43-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim44-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim44-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim4-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim4-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim13-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim13-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim85-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim85-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1214-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1214-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1216-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1216-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1240-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1240-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1242-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1242-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1244-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1244-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1246-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1246-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1260-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1260-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1260-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1260-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1260-2.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1260-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1272-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1272-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1194-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1194-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1194-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1194-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1194-2.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1194-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1284-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1284-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1210-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1210-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1212-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1212-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1208-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1208-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1150-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1150-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim60-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim60-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim208-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim208-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim91-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim91-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim17-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim17-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim18-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim18-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim19-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim19-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim19-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim19-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim87-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim87-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim87-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim87-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim62-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim62-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim136-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim136-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim21-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim21-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim20-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim20-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim512-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim512-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim59-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim59-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim24-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim24-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1134-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1134-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim97-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim97-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim129-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim129-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim123-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim123-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim63-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim63-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim138-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim138-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim128-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim128-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim193-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim193-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1222-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1222-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1300-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1300-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1160-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1160-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1154-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1154-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1310-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1310-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim107-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim107-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim111-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim111-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim112-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim112-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim108-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim108-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim55-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim55-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1076-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1076-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1238-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1238-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1236-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1236-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1234-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1234-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1232-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1232-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim225-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim225-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim104-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim104-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim102-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim102-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim103-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim103-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim134-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim134-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim134-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim134-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1196-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1196-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim126-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim126-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1330-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1330-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim124-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim124-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim51-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim51-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim53-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim53-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim125-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim125-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim52-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim52-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim54-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim54-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim84-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim84-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim209-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim209-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1156-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1156-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1158-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1158-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1162-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1162-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim70-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim70-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim968-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim968-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim964-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim964-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim966-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim966-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1078-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1078-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim500-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim500-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim806-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim806-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim484-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim484-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim88-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim88-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim67-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim67-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim9-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim9-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim181-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim181-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim73-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim73-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim186-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim186-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim30-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim30-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim185-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim185-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim82-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim82-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim75-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim75-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim116-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim116-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim142-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim142-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim115-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim115-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim141-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim141-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim114-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim114-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim140-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim140-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim66-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim66-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim113-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim113-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim210-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim210-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim962-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim962-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1314-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1314-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1312-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1312-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim474-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim474-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim121-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim121-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim81-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim81-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim195-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim195-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim78-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim78-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim522-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim522-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim520-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim520-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim518-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim518-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim68-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim68-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim76-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim76-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim74-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim74-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim978-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim978-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim858-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim858-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1006-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1006-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1000-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1000-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim992-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim992-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim982-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim982-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim852-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim852-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim854-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim854-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim814-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim814-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim46-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim46-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim482-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim482-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim734-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim734-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1112-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1112-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1110-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1110-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1122-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1122-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1108-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1108-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1106-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1106-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1118-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1118-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1148-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1148-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1116-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1116-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1114-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1114-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1120-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1120-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim818-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim818-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1130-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1130-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim970-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim970-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1132-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1132-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim822-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim822-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1130-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1130-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim972-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim972-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1132-1.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1132-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1320-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1320-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim824-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim824-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1080-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1080-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1136-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1136-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim998-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim998-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim996-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim996-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim810-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim810-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1322-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1322-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1002-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1002-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim820-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim820-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim816-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim816-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1034-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1034-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1004-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1004-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1074-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1074-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim656-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim656-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1104-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1104-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim940-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim940-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim942-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim942-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim944-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim944-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim80-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim80-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim79-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim79-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim77-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim77-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim83-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim83-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim65-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim65-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim133-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim133-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim702-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim702-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim706-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim706-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim704-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim704-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim109-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim109-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim478-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim478-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim95-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim95-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim105-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim105-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim477-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim477-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim918-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim918-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim926-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim926-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim920-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim920-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim922-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim922-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1326-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1326-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim896-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim896-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim898-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim898-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim900-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim900-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim732-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim732-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim682-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim682-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim684-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim684-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim686-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim686-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim688-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim688-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim690-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim690-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim692-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim692-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim726-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim726-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim728-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim728-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim696-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim696-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim698-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim698-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim718-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim718-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim720-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim720-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim722-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim722-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim724-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim724-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim672-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim672-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim674-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim674-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim774-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim774-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim676-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim676-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim678-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim678-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim680-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim680-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim212-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim212-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim670-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim670-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim984-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim984-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1092-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1092-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1088-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1088-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1140-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1140-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1138-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1138-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1144-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1144-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1142-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1142-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim988-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim988-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim874-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim874-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim882-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim882-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim890-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim890-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim880-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim880-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim888-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim888-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim876-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim876-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim878-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim878-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim29-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim29-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim476-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim476-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim736-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim736-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim666-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim666-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim668-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim668-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim664-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim664-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim662-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim662-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim860-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim860-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim830-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim830-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim904-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim904-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim828-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim828-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim862-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim862-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim654-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim654-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim100-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim100-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim99-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim99-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim139-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim139-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim118-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim118-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim516-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim516-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim660-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim660-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim120-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim120-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim119-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim119-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim650-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim650-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim524-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim524-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim526-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim526-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim716-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim716-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim730-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim730-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1146-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1146-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim101-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim101-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim64-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim64-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1220-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1220-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1318-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1318-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1198-0.bin
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default_anim1198-0.bin
+  - type: 1
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2armor_default.png
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2armor_default.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\rexxar2\smoothreflect_round.png
+    assetPath: Assets\wow_export\creature\rexxar2\smoothreflect_round.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\rexxar2\rexxar2body_default.png
+    assetPath: Assets\wow_export\creature\rexxar2\rexxar2body_default.png
+  reportItems:
+  - type: 2
+    code: 3
+    messages: []

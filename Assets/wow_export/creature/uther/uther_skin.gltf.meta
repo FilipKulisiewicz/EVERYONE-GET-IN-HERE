@@ -1,0 +1,1237 @@
+fileFormatVersion: 2
+guid: 2f55716d04335404a8f63194661964f4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim0-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim0-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim4-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim4-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim5-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim5-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim26-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim26-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1128-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1128-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim27-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim27-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim28-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim28-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim25-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim25-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim8-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim8-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim14-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim14-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim137-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim137-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim15-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim15-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim16-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim16-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim508-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim508-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim118-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim118-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim516-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim516-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim20-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim20-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim512-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim512-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim37-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim37-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim39-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim39-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim40-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim40-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim42-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim42-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim50-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim50-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim105-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim105-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim29-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim29-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim0-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim0-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim49-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim49-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim840-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim840-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim48-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim48-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim836-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim836-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim107-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim107-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim111-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim111-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim112-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim112-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim51-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim51-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim52-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim52-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim56-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim56-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim38-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim38-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim89-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim89-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim16-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim16-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim510-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim510-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim66-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim66-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim67-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim67-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim68-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim68-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim60-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim60-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim208-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim208-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim11-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim11-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim12-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim12-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim84-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim84-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim209-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim209-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim83-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim83-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim82-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim82-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim81-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim81-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim80-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim80-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim3-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim3-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim79-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim79-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim78-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim78-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim77-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim77-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim76-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim76-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim75-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim75-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim74-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim74-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim73-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim73-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim96-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim96-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim98-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim98-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim65-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim65-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim64-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim64-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim128-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim128-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim123-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim123-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim63-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim63-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim138-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim138-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim129-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim129-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim70-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim70-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim62-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim62-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim136-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim136-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim90-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim90-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim45-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim45-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim43-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim43-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim44-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim44-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim97-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim97-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim102-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim102-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim103-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim103-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim104-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim104-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim46-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim46-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim106-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim106-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim838-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim838-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim54-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim54-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim53-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim53-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim110-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim110-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim842-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim842-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim109-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim109-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim108-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim108-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim95-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim95-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim17-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim17-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim17-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim17-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim57-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim57-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1102-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1102-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim87-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim87-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim88-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim88-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim9-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim9-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim10-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim10-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim21-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim21-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim30-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim30-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim24-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim24-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1134-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1134-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim59-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim59-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim19-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim19-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim19-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim19-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim23-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim23-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim18-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim18-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim18-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim18-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim58-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim58-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim22-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim22-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim85-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim85-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim113-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim113-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim210-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim210-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim114-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim114-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim140-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim140-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim115-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim115-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim141-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim141-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim116-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim116-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim142-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim142-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim121-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim121-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim119-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim119-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim120-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim120-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim61-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim61-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim199-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim199-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim55-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim55-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim124-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim124-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim126-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim126-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim19-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim19-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim125-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim125-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim41-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim41-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim131-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim131-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim99-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim99-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim139-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim139-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim101-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim101-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim134-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim134-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim100-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim100-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim132-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim132-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim69-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim69-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim69-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim69-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim69-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim69-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim69-3.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim69-3.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim69-4.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim69-4.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim13-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim13-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim91-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim91-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim91-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim91-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim91-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim91-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim143-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim143-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim187-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim187-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim195-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim195-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim185-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim185-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim186-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim186-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim181-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim181-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim193-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim193-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim211-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim211-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim212-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim212-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim223-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim223-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim225-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim225-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim484-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim484-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim500-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim500-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim474-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim474-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim478-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim478-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim477-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim477-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim476-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim476-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim482-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim482-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim133-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim133-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim486-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim486-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim215-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim215-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim584-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim584-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim588-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim588-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim514-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim514-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim524-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim524-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim526-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim526-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim646-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim646-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim216-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim216-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim618-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim618-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim522-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim522-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim520-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim520-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim518-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim518-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim650-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim650-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim656-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim656-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim654-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim654-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim706-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim706-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim702-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim702-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim704-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim704-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim688-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim688-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim692-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim692-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim726-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim726-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim696-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim696-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim698-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim698-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim718-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim718-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim720-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim720-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim722-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim722-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim672-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim672-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim674-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim674-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim676-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim676-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim678-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim678-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim680-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim680-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim666-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim666-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim668-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim668-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim664-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim664-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim730-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim730-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim670-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim670-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim660-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim660-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim716-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim716-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim732-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim732-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim684-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim684-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim690-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim690-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim686-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim686-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim734-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim734-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim662-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim662-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim736-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim736-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim728-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim728-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim724-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim724-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim682-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim682-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim774-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim774-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim0-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim0-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim97-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim97-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim806-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim806-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim804-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim804-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim804-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim804-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim91-3.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim91-3.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim968-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim968-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim964-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim964-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim966-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim966-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim962-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim962-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim818-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim818-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1130-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1130-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim970-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim970-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1132-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1132-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim822-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim822-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1130-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1130-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim824-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim824-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1080-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1080-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1136-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1136-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim812-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim812-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim810-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim810-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim820-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim820-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim816-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim816-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim978-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim978-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim982-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim982-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim852-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim852-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim854-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim854-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim814-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim814-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim972-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim972-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1132-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1132-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim826-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim826-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim858-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim858-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1006-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1006-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim992-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim992-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim984-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim984-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim998-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim998-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim996-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim996-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1000-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1000-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1034-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1034-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1002-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1002-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1004-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1004-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim994-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim994-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1064-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1064-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1074-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1074-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1076-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1076-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1078-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1078-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1112-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1112-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1110-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1110-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1122-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1122-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1108-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1108-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1106-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1106-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1116-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1116-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1114-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1114-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1104-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1104-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim940-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim940-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim918-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim918-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim896-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim896-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim988-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim988-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim874-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim874-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim860-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim860-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim926-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim926-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim920-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim920-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim922-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim922-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim948-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim948-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim942-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim942-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim944-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim944-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim898-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim898-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim900-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim900-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim882-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim882-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim890-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim890-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim880-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim880-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim888-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim888-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim876-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim876-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim878-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim878-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim830-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim830-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim904-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim904-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim828-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim828-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim862-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim862-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1118-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1118-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1148-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1148-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1120-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1120-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1140-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1140-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1138-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1138-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1144-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1144-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1142-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1142-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1146-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1146-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1210-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1210-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1284-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1284-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1208-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1208-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1200-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1200-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1202-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1202-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1206-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1206-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1156-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1156-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1158-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1158-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1154-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1154-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1160-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1160-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1162-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1162-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1240-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1240-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1242-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1242-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1244-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1244-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1260-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1260-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1260-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1260-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1260-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1260-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1238-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1238-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1236-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1236-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1234-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1234-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1232-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1232-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1212-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1212-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1272-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1272-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1194-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1194-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1194-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1194-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1150-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1150-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1214-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1214-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1216-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1216-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1220-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1220-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1196-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1196-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1196-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1196-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1194-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1194-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1312-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1312-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1316-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1316-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1316-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1316-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1318-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1318-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1222-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1222-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1300-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1300-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1310-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1310-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1308-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1308-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1306-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1306-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1304-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1304-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim503-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim503-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim502-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim502-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1320-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1320-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1322-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1322-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1326-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1326-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1092-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1092-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1088-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1088-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1178-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1178-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1296-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1296-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1330-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1330-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim602-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim602-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim600-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim600-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim590-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim590-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim590-1.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim590-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim590-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim590-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim590-3.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim590-3.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim590-4.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim590-4.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1314-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1314-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim604-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim604-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim592-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim592-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim778-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim778-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1332-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1332-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1334-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1334-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1338-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1338-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1342-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1342-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1392-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1392-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1394-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1394-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1388-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1388-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1448-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1448-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1488-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1488-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim1490-0.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim1490-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim0-3.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim0-3.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-2.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-3.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-3.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-4.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-4.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-5.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-5.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-6.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-6.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-7.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-7.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-8.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-8.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-9.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-9.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-10.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-10.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-11.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-11.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-12.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-12.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-14.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-14.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-15.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-15.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-16.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-16.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-17.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-17.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-18.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-18.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-19.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-19.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-20.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-20.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-21.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-21.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-22.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-22.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-23.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-23.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\uther\uther_skin_anim808-24.bin
+    assetPath: Assets\wow_export\creature\uther\uther_skin_anim808-24.bin
+  - type: 1
+    originalUri: Assets\wow_export\creature\uther\uther_skin.png
+    assetPath: Assets\wow_export\creature\uther\uther_skin.png
+  - type: 1
+    originalUri: Assets\wow_export\creature\uther\armorreflect4.png
+    assetPath: Assets\wow_export\creature\uther\armorreflect4.png
+  reportItems:
+  - type: 2
+    code: 3
+    messages: []

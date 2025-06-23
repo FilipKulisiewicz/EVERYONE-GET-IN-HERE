@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 36ef49f238d819547bc11189abcf8cf2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim0-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim0-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim225-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim225-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim4-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim4-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim5-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim5-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim143-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim143-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim16-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim16-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim171-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim171-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim16-1.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim16-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim174-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim174-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim10-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim10-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim1-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim1-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim9-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim9-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim8-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim8-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim0-1.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim0-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim175-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim175-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim0-2.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim0-2.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim12-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim12-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim11-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim11-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim97-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim97-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim96-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim96-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim98-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim98-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim100-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim100-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim99-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim99-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim101-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim101-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim42-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim42-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim540-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim540-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim542-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim542-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim41-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim41-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim532-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim532-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim37-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim37-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim39-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim39-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim38-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim38-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim40-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim40-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim118-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim118-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim173-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim173-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim118-1.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim118-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim172-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim172-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim45-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim45-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim534-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim534-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim43-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim43-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim536-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim536-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim44-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim44-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim538-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim538-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim13-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim13-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim170-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim170-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim214-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim214-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim94-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim94-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim69-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim69-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim131-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim131-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim123-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim123-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim63-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim63-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim63-1.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim63-1.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim62-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim62-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim114-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim114-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim140-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim140-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim50-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim50-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim116-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim116-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim142-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim142-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim132-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim132-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim213-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim213-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim193-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim193-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim61-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim61-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim14-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim14-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim30-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim30-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim526-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim526-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim524-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim524-0.bin
+  - type: 0
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger_anim658-0.bin
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger_anim658-0.bin
+  - type: 1
+    originalUri: Assets\wow_export\creature\siberiantiger\siberiantiger.png
+    assetPath: Assets\wow_export\creature\siberiantiger\siberiantiger.png
+  reportItems:
+  - type: 2
+    code: 3
+    messages: []

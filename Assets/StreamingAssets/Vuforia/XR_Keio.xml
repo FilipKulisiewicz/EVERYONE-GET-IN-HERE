@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="wisp" size="1.000000 1.381333" />
+    <ImageTarget name="tiger" size="1.000000 1.381333" />
+    <ImageTarget name="yeti" size="1.000000 1.381188" />
+    <ImageTarget name="sylvanas" size="1.000000 1.381333" />
+    <ImageTarget name="ogremagi" size="1.000000 1.381188" />
+    <ImageTarget name="oasissnapjaw" size="1.000000 1.381188" />
+    <ImageTarget name="murloc_warleader" size="1.000000 1.381188" />
+    <ImageTarget name="kingkrush" size="1.000000 1.381333" />
+    <ImageTarget name="ironbeakowl" size="1.000000 1.381333" />
+    <ImageTarget name="grizzly" size="1.000000 1.381188" />
+    <ImageTarget name="fencreeper" size="1.000000 1.381333" />
+    <ImageTarget name="bloodfenraptor" size="1.000000 1.381188" />
+    <ImageTarget name="azuredrake" size="1.000000 1.381333" />
+    <ImageTarget name="ancientwatcher" size="1.000000 1.381333" />
+    <ImageTarget name="abomination" size="1.000000 1.381333" />
+    <ImageTarget name="alt-heroes_warrior_garrosh-ezgif" size="1.000000 1.132500" />
+    <ImageTarget name="alt-heroes_paladin_uther-ezgif" size="1.000000 1.132500" />
+    <ImageTarget name="alt-heroes_hunter_rexxar-ezgif" size="1.000000 1.132500" />
     <ImageTarget name="ragnaros" size="1.000000 1.434397" />
     <ImageTarget name="harvest_golem" size="1.000000 1.381333" />
     <ImageTarget name="card_back-default" size="1.000000 1.490284" />
