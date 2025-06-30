@@ -6,6 +6,8 @@ using Mediapipe.Tasks.Vision.HandLandmarker;
 
 public class HandHandler : MonoBehaviour
 {
+    public event Action<GameObject, GameObject> TwoCardInteraction;
+
     public GameObject jointPrefab;
     public Material lineMaterial;
     public float depth = 0.3f;
@@ -46,6 +48,7 @@ public class HandHandler : MonoBehaviour
     private bool handVisible = false;
 
     private bool isPinched = false;
+    private bool isPinchedPrevState = false;
     public float pinchDistanceEnterThreshold = 0.035f;  // Enter pinch when closer than this
     public float pinchDistanceExitThreshold = 0.050f;   // Exit pinch when farther than this
 
@@ -139,7 +142,7 @@ public class HandHandler : MonoBehaviour
             handVisible = true;
 
             DrawHand(landmarksToUpdate);
-            UpdatePinchSelection(landmarksToUpdate, landmarks3DToUpdate);  
+            HandlePinchingSelection(landmarksToUpdate, landmarks3DToUpdate);  
         }
         else
         {
@@ -153,28 +156,58 @@ public class HandHandler : MonoBehaviour
         }
     }
 
-    private void UpdatePinchSelection(List<NormalizedLandmark> landmarks2D, List<Landmark> landmarks3D)
+    private void HandlePinchingSelection(List<NormalizedLandmark> landmarks2D, List<Landmark> landmarks3D)
     {
-        if (CheckIfPinched(landmarks3D))
+        var isPinchedCurrState = CheckIfPinched(landmarks3D);
+        if(isPinchedPrevState != isPinchedCurrState);
         {
-            var obj = CheckIfTouchingCard(landmarks2D);
-            if (obj)
+            if(isPinchedCurrState == true)
             {
-                if (pinchedObject == null) //set as pinched obj
+                var obj = CheckIfTouchingCard(landmarks2D);
+                if (obj)
                 {
-                    pinchedObject = obj;
-                    SetGlow(pinchedObject, true);
-                    Debug.Log("pinchedObject: " + pinchedObject.name);
+                    if (pinchedObject == null) //set as pinched obj
+                    {
+                        if(CardInteractionHandler.GetCardFromObj(obj).IsAlive){ //TODO: should not be here (probably i should swith to ather layer, like DeadCard or sth)
+                            pinchedObject = obj;
+                            CardVisualHelper.SetGlow(pinchedObject, true, "yellow");    
+                            Debug.Log("pinchedObject: " + pinchedObject.name);
+                        }
+                    }
+                }
+            }
+            else if (isPinchedCurrState == false) //unpinched
+            {
+                var unpinchedObject = CheckIfTouchingCard(landmarks2D); //check for unpinched obj
+
+                if (unpinchedObject)
+                {
+                    if (pinchedObject != null)                     
+                    {
+                        Debug.Log("PinchedObject: " + GetCardSpriteName(pinchedObject) + " Attacks Un-pinchedObject: " +  GetCardSpriteName(unpinchedObject));
+                        TwoCardInteraction?.Invoke(pinchedObject, unpinchedObject);
+                    }
+                }
+                //clear pinched obj
+                if (pinchedObject != null)
+                {
+                    CardVisualHelper.SetGlow(pinchedObject, false);
+                    pinchedObject = null;
+                }
+                if (unpinchedObject != null)
+                {
+                    CardVisualHelper.SetGlow(unpinchedObject, false);
+                    unpinchedObject = null;
                 }
             }
         }
-        else //unpinched
-        {
-            if (pinchedObject != null)
-            {
-                Debug.Log("Un-pinchedObject: " + pinchedObject.name);
-                SetGlow(pinchedObject, false);
-                pinchedObject = null;
+
+        if(isPinchedCurrState  == true){
+            var obj = CheckIfTouchingCard(landmarks2D);
+            if(obj != pinchedObject){
+                if(CardInteractionHandler.GetCardFromObj(obj).IsAlive){ //TODO: same as up (should not be here (probably i should swith to ather layer, like DeadCard or sth))
+                    CardVisualHelper.SetGlow(obj, true, "purple");    
+                }
             }
         }
     }
@@ -268,12 +301,12 @@ public class HandHandler : MonoBehaviour
         if (!isPinched && distance < pinchDistanceEnterThreshold)
         {
             isPinched = true;
-            Debug.Log("Pinch Detected!");
+            // Debug.Log("Pinch Detected!");
         }
         else if (isPinched && distance > pinchDistanceExitThreshold)
         {
             isPinched = false;
-            Debug.Log("Pinch Released");
+            // Debug.Log("Pinch Released");
         }
 
         int[] highlightedJoints = {4, 8};
@@ -320,21 +353,15 @@ public class HandHandler : MonoBehaviour
         return null;
     }
 
-    private void SetGlow(GameObject obj, bool state)
-    {
-        // Change sprite color
-        var spriteRenderer = obj.GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
+    private string GetCardSpriteName(GameObject obj){ // it should not be solved this way
+        if (obj != null)
         {
-            spriteRenderer.color = state ? Color.yellow : Color.white;
+            var spriteRenderer = obj.GetComponent<SpriteRenderer>();
+            if (spriteRenderer != null && spriteRenderer.sprite != null)
+            {
+                return spriteRenderer.sprite.name;
+            }
         }
-
-        // Change color on any child 3D model renderers
-        var childRenderers = obj.GetComponentsInChildren<Renderer>();
-        foreach (var renderer in childRenderers)
-        {
-            if (renderer is SpriteRenderer) continue; // skip sprite (already done)
-            renderer.material.color = state ? Color.yellow : Color.white;
-        }
-    }
+        return "err";
+    } 
 }
