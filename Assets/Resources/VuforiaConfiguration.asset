@@ -18,17 +18,17 @@ MonoBehaviour:
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 100
+    maxSimultaneousImageTargets: 15
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 11.2.4
-    eulaAcceptedVersions: '{"Values":["11.2"]}'
+    eulaAcceptedVersions: '{"Values":["","11.2","0.0"]}'
   database:
     disableModelExtraction: 0
   plugins:
-    pluginDirectory: asset://Vuforia
+    pluginDirectory: Vuforia
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
     outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}

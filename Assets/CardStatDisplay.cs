@@ -3,27 +3,34 @@ using TMPro;
 
 public class CardStatDisplay : MonoBehaviour
 {
-    [SerializeField] public TextMeshPro attackText;
-    [SerializeField] public TextMeshPro healthText;
+    [SerializeField] public TextMeshPro manaTextField;
+    [SerializeField] public TextMeshPro attackTextField;
+    [SerializeField] public TextMeshPro healthTextField;
 
-    [SerializeField] private Color statChangedColor = Color.yellow;
-    [SerializeField] private float flashDuration = 0.3f;
+    private Color normalColor = Color.white;
+    private Color damagedColor = Color.red;
+    private Color buffColor = Color.green;
 
-    [SerializeField] private Color normalColor = Color.white;
-    [SerializeField] private Color damagedColor = Color.red;
-    [SerializeField] private Color overhealColor = Color.green;
-
-    private int attack;
+    [SerializeField] private int initialManaCost;
+    [SerializeField] private int initialAttack;
+    [SerializeField] private int initialHealth;
+    private int currentManaCost;
+    private int currentAttack;
     private int currentHealth;
-    private int maxHealth;
-
+    private int currentMaxHealth;
+            
+    public void Start(){
+        currentHealth = initialHealth;
+        currentMaxHealth = initialHealth;
+        UpdateHealthText();
+    }
     // Properties
-    public int Attack
+    public int CurrentAttack
     {
-        get => attack;
+        get => currentAttack;
         set
         {
-            attack = value;
+            currentAttack = value;
             
         }
     }
@@ -38,35 +45,27 @@ public class CardStatDisplay : MonoBehaviour
         }
     }
 
-    public int MaxHealth
+    public int CurrentMaxHealth
     {
-        get => maxHealth;
+        get => currentMaxHealth;
         set
         {
-            maxHealth = value;
+            currentMaxHealth = value;
             UpdateHealthText();
         }
     }
 
     private void UpdateHealthText()
     {
-        if (healthText == null) return;
+        if (healthTextField == null) return;
 
-        healthText.text = currentHealth.ToString();
+        healthTextField.text = currentHealth.ToString();
 
-        if (currentHealth < maxHealth)
-            healthText.color = damagedColor;
-        else if (currentHealth > maxHealth)
-            healthText.color = overhealColor;
+        if (currentHealth < currentMaxHealth)
+            healthTextField.color = damagedColor;
+        else if (currentHealth > currentMaxHealth)
+            healthTextField.color = buffColor;
         else
-            healthText.color = normalColor;
-    }
-
-    // For testing in editor or from another script
-    public void SetStats(int atk, int currentHp, int maxHp)
-    {
-        Attack = atk;
-        MaxHealth = maxHp;
-        CurrentHealth = currentHp;
+            healthTextField.color = normalColor;
     }
 }

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 50317709485a08f4bb52169988e99294
+  productGUID: 626f0fc593e91b14a8cceed62febf66b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -895,14 +895,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: XR class Keio
+  metroPackageName: EVERYONE-GET-IN-HERE
   metroPackageVersion: 11.2.4.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Vuforia
   metroCertificateIssuer: Vuforia
   metroCertificateNotAfter: 80a428773e1cd501
-  metroApplicationDescription: XR class Keio
+  metroApplicationDescription: EVERYONE-GET-IN-HERE
   wsaImages:
     65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png
     65661: Assets/Common/Icons/UWP/StoreLogo.scale-125.png
@@ -980,10 +980,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: True
       CodeGeneration: False
       BackgroundMediaPlayback: False
+      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
@@ -1047,7 +1047,7 @@ PlayerSettings:
   cloudProjectId: a5be0823-5397-4b56-bbeb-87245f70d76a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: XR class Keio
+  projectName: 
   organizationId: unity_259316
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1

@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Global Resource
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Card
   - Water
   - UI
   - 
@@ -41,9 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: TopBack
-    uniqueID: 742988863
+  - name: Card
+    uniqueID: 43800773
     locked: 0
-  - name: TopNum
-    uniqueID: 902122261
+  - name: TopIcon
+    uniqueID: 1600583149
+    locked: 0
+  - name: TopText
+    uniqueID: 1852700865
+    locked: 0
+  - name: TopTop
+    uniqueID: 501379037
+    locked: 0
+  - name: Hand
+    uniqueID: 2590608429
     locked: 0
