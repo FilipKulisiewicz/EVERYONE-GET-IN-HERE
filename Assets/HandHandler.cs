@@ -6,11 +6,13 @@ using Mediapipe.Tasks.Vision.HandLandmarker;
 
 public class HandHandler : MonoBehaviour
 {
-    public event Action<GameObject, GameObject> TwoCardInteraction;
+    public event Action<GameObject, GameObject> TwoObjectInteraction;
 
-    public GameObject jointPrefab;
-    public Material lineMaterial;
-    public float depth = 0.3f;
+    public enum HandSelection
+    {
+        Left,
+        Right
+    }
 
     public enum FingerType { Thumb, Index, Middle, Ring, Pinky }
 
@@ -32,6 +34,11 @@ public class HandHandler : MonoBehaviour
         { FingerType.Pinky,  new[] {17,18,19,20} }
     };
 
+    public GameObject jointPrefab;
+    public Material lineMaterial;
+    public HandSelection handToUse = HandSelection.Right; // exposed in Inspector
+    public float depth = 0.3f;
+
     private List<GameObject> jointObjects = new List<GameObject>();
     private List<LineRenderer> bones = new List<LineRenderer>();
 
@@ -40,7 +47,6 @@ public class HandHandler : MonoBehaviour
     private List<NormalizedLandmark> latestLandmarks = null;
     private List<Landmark> latestLandmarks3D = null;
     private readonly object _lock = new object();
-    private readonly object _lock3D = new object();
     private Camera arCamera;
 
     private float noHandTimer = 0f;
@@ -52,7 +58,8 @@ public class HandHandler : MonoBehaviour
     public float pinchDistanceEnterThreshold = 0.035f;  // Enter pinch when closer than this
     public float pinchDistanceExitThreshold = 0.050f;   // Exit pinch when farther than this
 
-    private GameObject pinchedObject = null;
+    private GameObject pinchedObject = null, potentialUnpinchedObject = null;
+    private readonly string[] validTags = {"Card", "Hero", "Special"};
 
     private void Awake()
     {
@@ -81,36 +88,63 @@ public class HandHandler : MonoBehaviour
             line.widthMultiplier = 0.005f;
             bones.Add(line);
         }
+        HideHand();
     }
+
 
     public void ScheduleHandUpdate(HandLandmarkerResult result)
     {
-
-        if (result.Equals(default) || result.handLandmarks == null || result.handLandmarks.Count == 0){
+        if (result.Equals(default) || result.handLandmarks == null || result.handLandmarks.Count == 0)
+        {
             landmarks = null;
             landmarks3D = null;
             lock (_lock)
             {
                 latestLandmarks = null;
+                latestLandmarks3D = null;
             }
-            lock (_lock3D)
+            return;
+        }
+
+        // Try to find the hand index based on handedness string
+        string targetHand = handToUse.ToString(); // "Right" or "Left"
+        int selectedIndex = -1;
+
+        for (int i = 0; i < result.handedness.Count; i++)
+        {
+            var categories = result.handedness[i].categories;
+            if (categories != null && categories.Count > 0)
             {
-                latestLandmarks3D =  null;
+                string categoryName = categories[0].categoryName;
+                if (categoryName.Equals(targetHand, StringComparison.OrdinalIgnoreCase))
+                {
+                    selectedIndex = i;
+                    break;
+                }
             }
         }
-        else{
-            landmarks = result.handLandmarks[0].landmarks;
-            landmarks3D = result.handWorldLandmarks[0].landmarks;
 
+        if (selectedIndex == -1)
+        {
+            // Selected hand not found
+            landmarks = null;
+            landmarks3D = null;
             lock (_lock)
             {
+                latestLandmarks = null;
+                latestLandmarks3D = null;
+            }
+            return;
+        }
 
-                latestLandmarks = new List<NormalizedLandmark>(landmarks);
-            }
-            lock (_lock3D)
-            {
-                latestLandmarks3D = new List<Landmark>(landmarks3D);
-            }
+        // Use landmarks for the matched hand
+        landmarks = result.handLandmarks[selectedIndex].landmarks;
+        landmarks3D = result.handWorldLandmarks[selectedIndex].landmarks;
+
+        lock (_lock)
+        {
+            latestLandmarks = new List<NormalizedLandmark>(landmarks);
+            latestLandmarks3D = new List<Landmark>(landmarks3D);
         }
     }
 
@@ -125,12 +159,6 @@ public class HandHandler : MonoBehaviour
             {
                 landmarksToUpdate = latestLandmarks;
                 latestLandmarks = null;
-            }
-        }
-        lock (_lock3D)
-        {
-            if (latestLandmarks3D != null)
-            {
                 landmarks3DToUpdate = latestLandmarks3D;
                 latestLandmarks3D = null;
             }
@@ -168,7 +196,7 @@ public class HandHandler : MonoBehaviour
                 {
                     if (pinchedObject == null) //set as pinched obj
                     {
-                        if(CardInteractionHandler.GetCardFromObj(obj).IsAlive){ //TODO: should not be here (probably i should swith to ather layer, like DeadCard or sth)
+                        if(HasAnyOfTags(obj, validTags)){
                             pinchedObject = obj;
                             CardVisualHelper.SetGlow(pinchedObject, true, "yellow");    
                             Debug.Log("pinchedObject: " + pinchedObject.name);
@@ -184,8 +212,8 @@ public class HandHandler : MonoBehaviour
                 {
                     if (pinchedObject != null)                     
                     {
-                        Debug.Log("PinchedObject: " + GetCardSpriteName(pinchedObject) + " Attacks Un-pinchedObject: " +  GetCardSpriteName(unpinchedObject));
-                        TwoCardInteraction?.Invoke(pinchedObject, unpinchedObject);
+                        Debug.Log("PinchedObject: " + GetCardSpriteName(pinchedObject) + " interacts with  Un-pinchedObject: " +  GetCardSpriteName(unpinchedObject));
+                        TwoObjectInteraction?.Invoke(pinchedObject, unpinchedObject);
                     }
                 }
                 //clear pinched obj
@@ -199,14 +227,30 @@ public class HandHandler : MonoBehaviour
                     CardVisualHelper.SetGlow(unpinchedObject, false);
                     unpinchedObject = null;
                 }
+                if (potentialUnpinchedObject != null)
+                {
+                    CardVisualHelper.SetGlow(potentialUnpinchedObject, false);
+                    potentialUnpinchedObject = null;
+                }
             }
         }
-
+        //handled piched marking
         if(isPinchedCurrState  == true){
             var obj = CheckIfTouchingCard(landmarks2D);
-            if(obj != pinchedObject){
-                if(CardInteractionHandler.GetCardFromObj(obj).IsAlive){ //TODO: same as up (should not be here (probably i should swith to ather layer, like DeadCard or sth))
-                    CardVisualHelper.SetGlow(obj, true, "purple");    
+            if(obj != null && obj != pinchedObject && obj != potentialUnpinchedObject)
+            {
+                if(potentialUnpinchedObject != null){
+                    CardVisualHelper.SetGlow(potentialUnpinchedObject, false); //prev potentialUnpinchedObject
+                }
+                potentialUnpinchedObject = obj;
+                if(HasAnyOfTags(potentialUnpinchedObject, validTags)){ 
+                    CardVisualHelper.SetGlow(potentialUnpinchedObject, true, "purple");    
+                }
+            }
+            else if(obj == null){
+                if(potentialUnpinchedObject != null){
+                    CardVisualHelper.SetGlow(potentialUnpinchedObject, false);
+                    potentialUnpinchedObject = null;
                 }
             }
         }
@@ -320,7 +364,7 @@ public class HandHandler : MonoBehaviour
                 renderer.material.color = pinchColor;
             }
         }
-        return isPinched; 
+        return isPinched;
     }
 
     private GameObject CheckIfTouchingCard(List<NormalizedLandmark> landmarks)
@@ -341,14 +385,20 @@ public class HandHandler : MonoBehaviour
         Vector3 dir = (midWorld - arCamera.transform.position).normalized;
 
         Ray ray = new Ray(arCamera.transform.position, dir);
-        RaycastHit hit;
-        
-        int cardLayer = LayerMask.NameToLayer("Card");
-        int cardMask = 1 << cardLayer;
+        return RaycastForTaggedCards(ray, validTags);
+    }
 
-        if (Physics.Raycast(ray, out hit, 10f, cardMask))
+    public GameObject RaycastForTaggedCards(Ray ray, string[] validTags)
+    {
+        int cardLayer = LayerMask.NameToLayer("Card");
+        int layerMask = 1 << cardLayer;
+
+        if (Physics.Raycast(ray, out RaycastHit hit, 100f, layerMask))
         {
-            return hit.collider.gameObject; //TODO handle wha to do in case of more cards on the way
+            if (HasAnyOfTags(hit.collider.gameObject,validTags))
+            {
+                return hit.collider.gameObject;
+            }
         }
         return null;
     }
@@ -364,4 +414,16 @@ public class HandHandler : MonoBehaviour
         }
         return "err";
     } 
+
+    private static bool HasAnyOfTags(GameObject obj, params string[] tags)
+    {
+        foreach (string tag in tags)
+        {
+            if (obj.CompareTag(tag))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }

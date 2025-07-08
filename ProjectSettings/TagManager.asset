@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Global Resource
+  - Card
+  - Hero
+  - Special
+  - DeadCard
   layers:
   - Default
   - TransparentFX

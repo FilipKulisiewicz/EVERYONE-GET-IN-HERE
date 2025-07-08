@@ -4,63 +4,63 @@ using TMPro;
 
 public static class CardVisualHelper
 {
-    public static void SetGlow(GameObject obj, bool state, string colorName = "yellow")
+    public static void SetGlow(GameObject obj, bool state, string colorName = null)
     {
-        Color defColor = CardInteractionHandler.GetCardFromObj(obj).Color;
-        Color glowColor = Color.white;
-
-        if (state)
-        {
-            if (!ColorUtility.TryParseHtmlString(colorName, out glowColor))
-            {
-                if (!TryGetNamedColor(colorName.ToLower(), out glowColor))
-                {
-                    Debug.LogWarning($"Unknown color name '{colorName}', defaulting to yellow.");
-                    glowColor = defColor;
-                }
-            }
+        ColorHolder card = ColorHolder.GetColorHolderFromObj(obj);
+        Color glowColor = card.Color;
+        if(!ColorUtility.TryParseHtmlString(colorName, out glowColor)){
+            glowColor = card.Color;
         }
+        ApplyGlow(obj, state, glowColor);
+    }
 
-        // Change color for main SpriteRenderer
+    public static void SetGlow(GameObject obj, bool state, Color color)
+    {
+        ColorHolder card = ColorHolder.GetColorHolderFromObj(obj);
+        Color glowColor = state ? color : card.Color;
+        ApplyGlow(obj, state, glowColor);
+    }
+    
+    private static void ApplyGlow(GameObject obj, bool state, Color glowColor)
+    {
+        // Change main sprite
         var spriteRenderer = obj.GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
         {
-            spriteRenderer.color = state ? glowColor : defColor;
+            spriteRenderer.color = glowColor;
         }
 
-        // Change color for all SpriteRenderers in children
+        // Change all child sprite renderers
         var spriteRenderers = obj.GetComponentsInChildren<SpriteRenderer>(true);
         foreach (var renderer in spriteRenderers)
         {
-            renderer.color = state ? glowColor : defColor;
+            renderer.color = glowColor;
         }
 
-        // Change color for all TextMeshPro components in children
-        var tmpTexts = obj.GetComponentsInChildren<TextMeshProUGUI>(true);
+        // Change TextMeshProUGUI and TextMeshPro
+        var tmpTexts = obj.GetComponentsInChildren<TMPro.TextMeshProUGUI>(true);
         foreach (var tmp in tmpTexts)
         {
-            tmp.color = state ? glowColor : defColor;
+            tmp.color = glowColor;
         }
 
-        var tmpWorldTexts = obj.GetComponentsInChildren<TextMeshPro>(true);
+        var tmpWorldTexts = obj.GetComponentsInChildren<TMPro.TextMeshPro>(true);
         foreach (var tmp in tmpWorldTexts)
         {
-            tmp.color = state ? glowColor : defColor;
+            tmp.color = glowColor;
         }
-       
+
+        // Change all 3D Renderers
         var renderers = obj.GetComponentsInChildren<Renderer>(true);
         foreach (var renderer in renderers)
         {
-            if (renderer is SpriteRenderer)
+            if (renderer is SpriteRenderer) continue;
+            foreach (var material in renderer.materials)
             {
-                continue;
-            }
-            var materials = renderer.materials;
-            for (int i = 0; i < materials.Length; i++)
-            {
-                materials[i].color = state ? glowColor : defColor;
+                material.color = glowColor;
             }
         }
+        Debug.Log("SetGlow - applied: " + glowColor);
     }
 
     // Support common color names
@@ -98,18 +98,43 @@ public static class CardVisualHelper
         }
     }
 
-    public static async Task WaitUntilAnimationNotPlaying(GameObject obj, string match)
+    public static async Task WaitUntilAnimationFinished(GameObject obj, string match)
     {
         var animator = obj.GetComponentInChildren<Animator>();
         if (animator == null) return;
+        bool animationReachedEnd = false;
+        string clipName = null;
 
+        // Step 1: Wait until animation starts
         while (true)
         {
             var clipInfo = animator.GetCurrentAnimatorClipInfo(0);
-            string currentClipName = (clipInfo.Length > 0) ? clipInfo[0].clip.name : "";
-
-            if (!currentClipName.Contains(match))
+            if (clipInfo.Length > 0 && clipInfo[0].clip.name.Contains(match))
                 break;
+
+            await Task.Yield();
+        }
+
+        // Step 2: Wait until animation finishes first full cycle
+        while (true)
+        {
+            var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            var clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+
+            // detect when animation is about to end 
+            if (clipInfo[0].clip.name.Contains(match) && stateInfo.normalizedTime >= 0.975f)
+            {
+                animationReachedEnd = true;
+                clipName = clipInfo[0].clip.name;
+                if(stateInfo.normalizedTime >= 0.995f){
+                    break;
+                }
+            }
+            // after reaching 0.95, animation might change before reaching 
+            if (animationReachedEnd && clipName != clipInfo[0].clip.name)
+            {
+                break;
+            }
 
             await Task.Yield();
         }

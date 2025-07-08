@@ -1,8 +1,10 @@
 using UnityEngine;
 using TMPro;
 
-public class CardStats : MonoBehaviour
+public class Card : ColorHolder
 {
+    private Hero owner = null;
+
     [SerializeField] public TextMeshPro manaTextField;
     [SerializeField] public TextMeshPro attackTextField;
     [SerializeField] public TextMeshPro healthTextField;
@@ -20,9 +22,9 @@ public class CardStats : MonoBehaviour
     private int currentMaxHealth;
 
     private bool isAlive = true;
-    public Color color = Color.white;
-
+    
     public void Start(){
+        Color = Color.white;
         currentHealth = initialHealth;
         currentMaxHealth = initialHealth;
         currentManaCost = initialManaCost;
@@ -31,21 +33,21 @@ public class CardStats : MonoBehaviour
     }
 
     // Properties
+    public Hero Owner
+    {
+        get => owner;
+        set
+        {
+            owner = value;
+        }
+    }
+
     public bool IsAlive
     {
         get => isAlive;
         set
         {
             isAlive = value;
-        }
-    }
-
-    public Color Color
-    {
-        get => color;
-        set
-        {
-            color = value;
         }
     }
 
@@ -69,7 +71,7 @@ public class CardStats : MonoBehaviour
             currentHealth = value;
             if (currentHealth == 0){
                 isAlive = false;
-                color = Color.gray;
+                owner = null; 
             }
             UpdateTextField(healthTextField, currentHealth, currentMaxHealth);
         }
@@ -91,16 +93,21 @@ public class CardStats : MonoBehaviour
 
         textField.text = value.ToString();
 
-        if (value < referenceValue)
-            textField.color = damagedColor;
-        else if (value > referenceValue)
-            textField.color = buffColor;
-        else
-            textField.color = normalColor;
+        if(isAlive){
+            if (value < referenceValue)
+                textField.color = damagedColor;
+            else if (value > referenceValue)
+                textField.color = buffColor;
+            else
+                textField.color = normalColor;
+        }
+        else{
+            textField.color = Color;
+        }
     }
 
 
-    private void UpdateAllTextField(){
+    public void UpdateAllTextField(){
         UpdateTextField(healthTextField, currentHealth, currentMaxHealth);
         UpdateTextField(attackTextField, currentAttack, initialAttack);
         UpdateTextField(manaTextField, currentManaCost, initialManaCost);
