@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class RotateModelManager : MonoBehaviour
 {
+    [SerializeField] string tag = "Card"; 
+        
     void Update()
     {
         // Find all objects with the "Card" tag (or use a specific component if needed)
-        GameObject[] cardObjects = GameObject.FindGameObjectsWithTag("Card");
+        GameObject[] cardObjects = GameObject.FindGameObjectsWithTag(tag);
 
         foreach (var card in cardObjects)
         {
