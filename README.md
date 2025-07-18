@@ -6,4 +6,5 @@ A video card game transformed into a 3D figure battle using XR technology.
 <img width="1648" height="908" alt="hand" src="https://github.com/user-attachments/assets/9120fed6-f800-4a53-8f51-0108e30ba499" />
 <img width="1692" height="942" alt="kill" src="https://github.com/user-attachments/assets/10660dd7-0a9d-41ab-943f-0ad4bafc392b" />
 
-Project realized as part of the XR course at Keio University.
+Project realized as part of the XR course at Keio University. 
+Feedback from Professor: "best project of last 10 years, I'm running this course"
