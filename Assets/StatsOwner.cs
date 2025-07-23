@@ -1,8 +1,10 @@
 using TMPro;
 using UnityEngine;
 
-public class StatsHolder : ColorHolder
+public class StatsHolder : MonoBehaviour 
 {
+    [SerializeField] private ColorHolder colorHolder;
+ 
     [Header("UI References")]
     [SerializeField] public TextMeshPro manaTextField;
     [SerializeField] public TextMeshPro attackTextField;
@@ -26,7 +28,11 @@ public class StatsHolder : ColorHolder
 
     protected virtual void Start()
     {
-        Color = Color.white;
+        if (colorHolder == null)
+            colorHolder = GetComponent<ColorHolder>();
+
+        if (colorHolder != null)
+            colorHolder.Color = Color.white;
         currentHealth = initialHealth;
         currentMaxHealth = initialHealth;
         currentManaCost = initialManaCost;
@@ -38,6 +44,13 @@ public class StatsHolder : ColorHolder
     {
         get => isAlive;
         set => isAlive = value;
+    }
+
+    // Expose Color property via composition
+    public Color Color
+    {
+        get => colorHolder != null ? colorHolder.Color : Color.white;
+        set { if (colorHolder != null) colorHolder.Color = value; }
     }
 
     public int CurrentAttack

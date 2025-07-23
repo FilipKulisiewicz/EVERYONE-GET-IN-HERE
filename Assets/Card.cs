@@ -6,7 +6,6 @@ public class Card : StatsHolder
     private Hero owner = null;
 
     public void Start(){
-        Color = Color.white;
         CurrentHealth = initialHealth;
         CurrentMaxHealth = initialHealth;
         CurrentManaCost = initialManaCost;
