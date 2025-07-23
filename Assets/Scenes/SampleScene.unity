@@ -3007,7 +3007,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ddcacc4a295c5984cae4a98a28c6ca29, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.059238106, g: 0.68465674, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3029,13 +3029,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff88165fff710424b9ac9ba3ba7994f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0.44310427, b: 1, a: 1}
   manaTextField: {fileID: 1961143757}
   attackTextField: {fileID: 1476326011}
   healthTextField: {fileID: 650895298}
   initialManaCost: 0
   initialAttack: 0
   initialHealth: 15
+  colorHolder: {fileID: 0}
 --- !u!65 &100821241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3178,13 +3178,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1814756934}
   attackTextField: {fileID: 166575683}
   healthTextField: {fileID: 1492588573}
   initialManaCost: 0
   initialAttack: 1
   initialHealth: 1
+  colorHolder: {fileID: 0}
 --- !u!4 &102360944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 819747245580472012, guid: cc55134eab1fb104b96cd0360bec8f8d,
@@ -5784,13 +5784,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1334655464}
   attackTextField: {fileID: 1240317571}
   healthTextField: {fileID: 1230360515}
   initialManaCost: 3
   initialAttack: 3
   initialHealth: 3
+  colorHolder: {fileID: 0}
 --- !u!1 &223590560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5912,13 +5912,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1428160075}
   attackTextField: {fileID: 1002095338}
   healthTextField: {fileID: 913234559}
   initialManaCost: 3
   initialAttack: 2
   initialHealth: 3
+  colorHolder: {fileID: 0}
 --- !u!1 &223840634
 GameObject:
   m_ObjectHideFlags: 0
@@ -6376,13 +6376,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 92381290}
   attackTextField: {fileID: 739382402}
   healthTextField: {fileID: 1007846468}
   initialManaCost: 5
   initialAttack: 4
   initialHealth: 4
+  colorHolder: {fileID: 0}
 --- !u!1 &241488589
 GameObject:
   m_ObjectHideFlags: 0
@@ -9250,7 +9250,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 001c8090d9d8d3e48bfcbb6a8ca420da, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9056604, g: 0.17912327, b: 0.03759341, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9272,13 +9272,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff88165fff710424b9ac9ba3ba7994f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 0, b: 0, a: 1}
   manaTextField: {fileID: 87298096}
   attackTextField: {fileID: 2137376798}
   healthTextField: {fileID: 2122166050}
   initialManaCost: 0
   initialAttack: 0
   initialHealth: 15
+  colorHolder: {fileID: 0}
 --- !u!65 &343349116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10155,13 +10155,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1428160075}
   attackTextField: {fileID: 1002095338}
   healthTextField: {fileID: 913234559}
   initialManaCost: 3
   initialAttack: 2
   initialHealth: 3
+  colorHolder: {fileID: 0}
 --- !u!1 &397395409
 GameObject:
   m_ObjectHideFlags: 0
@@ -13359,13 +13359,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1464423011}
   attackTextField: {fileID: 999886618}
   healthTextField: {fileID: 1134878021}
   initialManaCost: 3
   initialAttack: 3
   initialHealth: 3
+  colorHolder: {fileID: 0}
 --- !u!1 &650895296
 GameObject:
   m_ObjectHideFlags: 0
@@ -19615,13 +19615,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 872754832}
   attackTextField: {fileID: 1875835028}
   healthTextField: {fileID: 116306315}
   initialManaCost: 2
   initialAttack: 3
   initialHealth: 2
+  colorHolder: {fileID: 0}
 --- !u!1 &913234557
 GameObject:
   m_ObjectHideFlags: 0
@@ -24177,13 +24177,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1183064705}
   attackTextField: {fileID: 1963517656}
   healthTextField: {fileID: 497595604}
   initialManaCost: 3
   initialAttack: 2
   initialHealth: 1
+  colorHolder: {fileID: 0}
 --- !u!1 &999886616
 GameObject:
   m_ObjectHideFlags: 0
@@ -26117,13 +26117,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1901842550}
   attackTextField: {fileID: 40327939}
   healthTextField: {fileID: 674323027}
   initialManaCost: 5
   initialAttack: 5
   initialHealth: 5
+  colorHolder: {fileID: 0}
 --- !u!1 &1016823827
 GameObject:
   m_ObjectHideFlags: 0
@@ -27281,13 +27281,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 973573609}
   attackTextField: {fileID: 1950332511}
   healthTextField: {fileID: 15296707}
   initialManaCost: 2
   initialAttack: 4
   initialHealth: 5
+  colorHolder: {fileID: 0}
 --- !u!1 &1125695190
 GameObject:
   m_ObjectHideFlags: 0
@@ -29707,13 +29707,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 47573715}
   attackTextField: {fileID: 273198104}
   healthTextField: {fileID: 388937026}
   initialManaCost: 4
   initialAttack: 4
   initialHealth: 5
+  colorHolder: {fileID: 0}
 --- !u!4 &1259211825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2892724138734523036, guid: a1b3dc09e6b49d24bb73b2a53c6b3783,
@@ -29914,13 +29914,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1621575372}
   attackTextField: {fileID: 1448188944}
   healthTextField: {fileID: 397395411}
   initialManaCost: 5
   initialAttack: 3
   initialHealth: 6
+  colorHolder: {fileID: 0}
 --- !u!1 &1334655462
 GameObject:
   m_ObjectHideFlags: 0
@@ -30473,13 +30473,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1759025646}
   attackTextField: {fileID: 404578987}
   healthTextField: {fileID: 930972308}
   initialManaCost: 4
   initialAttack: 2
   initialHealth: 7
+  colorHolder: {fileID: 0}
 --- !u!1 &1367991642
 GameObject:
   m_ObjectHideFlags: 0
@@ -35561,13 +35561,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 194247631}
   attackTextField: {fileID: 1361733596}
   healthTextField: {fileID: 1839247901}
   initialManaCost: 8
   initialAttack: 8
   initialHealth: 8
+  colorHolder: {fileID: 0}
 --- !u!1 &1474838046
 GameObject:
   m_ObjectHideFlags: 0
@@ -36447,13 +36447,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 145049540}
   attackTextField: {fileID: 737724669}
   healthTextField: {fileID: 316457420}
   initialManaCost: 5
   initialAttack: 4
   initialHealth: 4
+  colorHolder: {fileID: 0}
 --- !u!1 &1569101253
 GameObject:
   m_ObjectHideFlags: 0
@@ -36705,7 +36705,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8dd8f2f4e07426940aee7c7674c4226f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.26961553, g: 0.764151, b: 0.34172, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -36727,13 +36727,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff88165fff710424b9ac9ba3ba7994f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 1, b: 0.090131044, a: 1}
   manaTextField: {fileID: 1474838048}
   attackTextField: {fileID: 1569101255}
   healthTextField: {fileID: 387665335}
   initialManaCost: 0
   initialAttack: 0
   initialHealth: 15
+  colorHolder: {fileID: 0}
 --- !u!65 &1574742051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41963,13 +41963,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 338517071}
   attackTextField: {fileID: 1802536947}
   healthTextField: {fileID: 1666853638}
   initialManaCost: 1
   initialAttack: 1
   initialHealth: 2
+  colorHolder: {fileID: 0}
 --- !u!1 &1788489252
 GameObject:
   m_ObjectHideFlags: 0
@@ -43916,13 +43916,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1428160075}
   attackTextField: {fileID: 1002095338}
   healthTextField: {fileID: 913234559}
   initialManaCost: 3
   initialAttack: 2
   initialHealth: 3
+  colorHolder: {fileID: 0}
 --- !u!1 &1822157140
 GameObject:
   m_ObjectHideFlags: 0
@@ -45415,13 +45415,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1656962614}
   attackTextField: {fileID: 1125695192}
   healthTextField: {fileID: 569713825}
   initialManaCost: 9
   initialAttack: 8
   initialHealth: 8
+  colorHolder: {fileID: 0}
 --- !u!1001 &1865919978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47547,13 +47547,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 1947165451}
   attackTextField: {fileID: 1890531123}
   healthTextField: {fileID: 968851279}
   initialManaCost: 4
   initialAttack: 4
   initialHealth: 4
+  colorHolder: {fileID: 0}
 --- !u!1 &1916295375
 GameObject:
   m_ObjectHideFlags: 0
@@ -51259,13 +51259,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64d68480d207149923888e8fc6e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
   manaTextField: {fileID: 416904120}
   attackTextField: {fileID: 1753407108}
   healthTextField: {fileID: 79699534}
   initialManaCost: 6
   initialAttack: 5
   initialHealth: 5
+  colorHolder: {fileID: 0}
 --- !u!65 &2012820775
 BoxCollider:
   m_ObjectHideFlags: 0

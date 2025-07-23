@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class StatsHolder : ColorHolder
+public class StatsHolder : MonoBehaviour // Remove inheritance from ColorHolder
 {
     [Header("UI References")]
     [SerializeField] public TextMeshPro manaTextField;
@@ -24,14 +24,30 @@ public class StatsHolder : ColorHolder
 
     protected bool isAlive = true;
 
+    // Composition: ColorHolder reference
+    [SerializeField] private ColorHolder colorHolder;
+
     protected virtual void Start()
     {
-        Color = Color.white;
+        // If not assigned, try to get from this GameObject
+        if (colorHolder == null)
+            colorHolder = GetComponent<ColorHolder>();
+
+        if (colorHolder != null)
+            colorHolder.Color = Color.white;
+
         currentHealth = initialHealth;
         currentMaxHealth = initialHealth;
         currentManaCost = initialManaCost;
         currentAttack = initialAttack;
         UpdateAllTextField();
+    }
+
+    // Expose Color property via composition
+    public Color Color
+    {
+        get => colorHolder != null ? colorHolder.Color : Color.white;
+        set { if (colorHolder != null) colorHolder.Color = value; }
     }
 
     public bool IsAlive
@@ -102,7 +118,7 @@ public class StatsHolder : ColorHolder
         }
         else
         {
-            textField.color = Color;
+            textField.color = Color; // Uses composition now
         }
     }
 
@@ -119,3 +135,4 @@ public class StatsHolder : ColorHolder
         // e.g., override in Hero or Card to null owner, trigger animation, etc.
     }
 }
+

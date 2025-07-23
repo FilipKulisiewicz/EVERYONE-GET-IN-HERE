@@ -25,6 +25,6 @@ public class Hero : StatsHolder
         currentManaCost = initialManaCost;
         currentAttack = initialAttack;
         UpdateAllTextField();
-        CardVisualHelper.SetGlow(gameObject, true, Color);
+        CardVisualHelper.SetGlow(gameObject, true, Color); // Color property now uses composition
     }
 }
